@@ -1,6 +1,6 @@
 # BuildingRPackage
 
-[travis]https://travis-ci.org/toamitesh/FinalRPackageProject/builds/238353111
+[travis](https://travis-ci.org/toamitesh/FinalRPackageProject/builds/238353111)
 
 Instructions
 
