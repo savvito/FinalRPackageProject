@@ -1,0 +1,30 @@
+---
+title: "Coursera Assignment"
+author: "Baby Steps"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{"Examples for fars Package}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# `rfars`
+FARS is a nationwide census providing NHTSA, Congress and the American public yearly data regarding fatal injuries suffered in motor vehicle traffic crashes.
+
+This package gives the user the ability to plot all of the fatal traffic accidents for a particular year on a state map plot, which uses the `maps` package.  Below is information about the FARS data from the NHTSA's website.
+
+- [FARS website](https://www.nhtsa.gov/research-data/fatality-analysis-reporting-system-fars)
+- [FARS Manual](https://crashstats.nhtsa.dot.gov/#/DocumentTypeList/4)
+
+
+
+## Dependencies
++ dplyr
++ maps
++ graphics
++ tidyr
++ readr
+
+
+

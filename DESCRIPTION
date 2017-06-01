@@ -1,0 +1,19 @@
+Package: rfars
+Title: Coursera Package Building Assignment
+Version: 0.0.1.0
+Authors@R: person("Coursera", "WorkHard", email = "gonuts@xyz.com", role = c("aut", "cre"))
+Description: This package gives users the ability to plot a state map of all the fatal road accidents 
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: testthat,
+    knitr,
+    rmarkdown,
+    covr
+VignetteBuilder: knitr
+RoxygenNote: 6.0.1
+Imports: dplyr,
+    tidyr,
+    maps,
+    readr,
+    graphics
